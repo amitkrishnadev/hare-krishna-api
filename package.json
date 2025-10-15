@@ -1,0 +1,35 @@
+{
+	"name": "hare-krishna-api",
+	"version": "16.0.0",
+	"description": "hare-krishna-api",
+	"main": "server.js",
+	"type": "commonjs",
+	"scripts": {
+		"dev": "nodemon server.js",
+		"start": "node server.js",
+		"test": "echo \"Error: no test specified\" && exit 1" 
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/amitkrishnadev/hare-krishna-api.git"
+	},
+	"keywords": [
+		"hare-krishna-api"
+	],
+	"author": "Amit Krishna Dev",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/amitkrishnadev/hare-krishna-api/issues"
+	},
+	"homepage": "https://github.com/amitkrishnadev/hare-krishna-api#readme",
+	"engines": {
+		"node": ">=22.18.0 <23.0.0" 
+	},
+	"dependencies": {
+		"dotenv": "^17.2.3",
+		"express": "^5.1.0"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.10"
+	}
+}
